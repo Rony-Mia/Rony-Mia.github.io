@@ -1,0 +1,508 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* Default style */
+    .section-header{
+        font-size: 45px;
+    }
+    .section-header::before {
+        width: 90px;
+        right: 15px;
+    }
+
+    /* Header area */
+    .header-menu {
+        padding: 0px 45px;
+        margin-bottom: -74px;
+    }
+    .header-menu .main-menu ul li a{
+        font-size: 14px;
+    }
+    .header-menu .main-menu ul li {
+        padding: 30px 30px 30px 0px;
+    }
+
+    /* Slider area */
+    .slider-area .slider-height {
+        min-height: 750px;
+    }
+    .slider-area .slider-content {
+        padding: 0px 100px;
+    }
+    .slider-area .slider-content h2 {
+        font-size: 50px;
+    }
+
+    /* About us area */
+    .about-area .about-short {
+        margin-right: 45px;
+    }
+    .about-area .about-short p {
+        font-size: 28px;
+    }
+
+    /* Contact area */
+    .contact-area .mfp-iframe-scaler iframe {
+        height: 80%;
+    }
+
+    /* Cases area */
+    .cases-area .case-wrap .single-case h3 {
+        font-size: 18px;
+    }
+
+    /* Testimonial area */
+    .testimonial-area .single-testimonial p {
+        font-size: 28px;
+    }
+
+    /* FAQ area */
+    .faq-area .faq-img img {
+        margin-left: -50px;
+        width: 450px;
+        height: 600px;
+        margin-top: 91px;
+    }
+    .faq-area .faq-accordion .btn.btn-link::after {
+        right: 20px;
+    }
+    .faq-area .faq-accordion .btn.btn-link.collapsed::after {
+        right: 20px;
+    }
+    .faq-area .faq-accordion .btn.btn-link {
+        font-size: 16px;
+        padding: 15px 20px;
+    }
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Default style */
+    .section-header{
+        font-size: 30px;
+    }
+    .section-header::before {
+        width: 80px;
+        right: 25px;
+        top: 28px;
+    }
+   
+    /* Header area */
+    .header-logo .single-ctn h4 {
+        font-size: 14px;
+    }
+    .header-logo .single-ctn span a {
+        font-size: 12px;
+    }
+    .header-logo .single-ctn span {
+        font-size: 12px;
+    }
+    .header-menu .main-menu ul li a {
+        font-size: 14px;
+    }
+    .header-menu {
+        padding: 10px 25px;
+        margin-bottom: -60px;
+    }
+    .header-area .btn-quote {
+        position: absolute;
+        top: 0px;
+        right: 10px;
+    }
+
+    /* Slider area */
+    .slider-area .slider-content h2 {
+        font-size: 40px;
+    }
+    .slider-area .slider-height {
+        min-height: 600px;
+    }
+
+    /* About us area */
+    .about-area .about-short p {
+        font-size: 24px;
+    }
+    .about-area .description p{
+        font-size: 12px;
+    }
+
+   /* Features area  */
+    .features-area .single-feature h2{
+        font-size: 16px;
+    }
+    .features-area .single-feature p{
+        font-size: 12px;
+    }
+    .features-area .pr-35{
+        padding-right: 20px !important;
+    }
+    .features-area .pl-35{
+        padding-left: 20px !important;
+    }
+    .features-area .pr-70{
+        padding-right: 40px !important;
+    }
+    .features-area .pl-70{
+        padding-left: 40px !important;
+    }
+
+    /* Service area */
+    .service-area .service-header p{
+        margin-bottom: 40px;
+    }
+
+    /* Contact area */
+    .contact-area .contact-wrap h1{
+        font-size: 40px;
+    }
+    .mfp-iframe-scaler iframe{
+        width: 90%;
+        height: 80%;
+        left: 40px;
+    }
+
+    /* Cases area */
+    .cases-area .case-header p{
+        margin-bottom: 70px;
+    }
+    .cases-area .owl-carousel .owl-nav{
+        top: -55px;
+    }
+    .cases-area .case-wrap .single-case h3{
+        font-size: 16px;
+    }
+
+    /* Testimonial area */
+    .testimonial-area .single-testimonial p{
+        font-size: 24px;
+    }
+    .testimonial-area .consultation {
+        padding: 50px;
+    }
+    .testimonial-area .consultation h2 {
+        font-size: 28px;
+    }
+    .testimonial-area .consultation input { 
+        padding: 10px 20px;
+    }
+    .testimonial-area .consultation .nice-select{
+        padding-left: 18px;
+        font-size: 12px;
+    }
+    .testimonial-area .consultation #message{
+        padding: 10px 20px;
+        height: 200px;
+    }
+    .testimonial-area .consultation .btn-default{
+        padding: 15px 35px;
+    }
+
+
+    /* FAQ area */
+    .faq-area .faq-img img{
+        width: 100%;
+        margin-left: 0;
+        
+    }
+    .faq-area .faq-accordion {
+        margin-left: -345px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /* Blog area */
+    .blog-area .blog-description h4 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .blog-area .blog-description .blog-btn {
+        margin-top: 25px;
+    }
+    .footer-area .contact-us{
+        margin-top: 80px;
+        text-align: center;
+    }
+    .footer-area .footer-menu ul li a{
+        font-size: 12px;
+    }
+    
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    /* Default style */
+    .section-header {
+        font-size: 28px;
+        padding-right: 75px;
+    }
+    .section-header::before {
+        width: 69px;
+        top: 24px;
+    }
+
+    /* Header area */
+    .header-area .header-top .social{
+        margin-top: 20px;
+    }
+    .header-area .header-logo .logo{
+        margin-bottom: 25px;
+    }
+    .header-logo .single-ctn h4{
+        font-size: 12px;
+    }
+    .header-logo .single-ctn span a{
+        font-size: 11px;
+    }
+    .header-logo .single-ctn span{
+        font-size: 9px;
+    }
+    .header-menu{
+        padding: 10px 10px;
+        margin-bottom: -61px;
+    }
+    .header-area .btn-quote{
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+    .header-area .sm-btn {
+        position: absolute;
+        top: 15px;
+        right: -5px;
+    }
+
+
+    /* Slider area */
+    .slider-area .slider-height {
+        min-height: 550px;
+    }
+    .slider-area .slider-content {
+        padding: 0px 15px;
+    }
+    .slider-area .slider-content h2{
+        font-size: 24px;
+    }
+    .slider-area .slider-content p {
+        margin: 25px 0px;
+        font-size: 14px;
+    }
+    .slider-area .owl-nav{
+        display: none;
+    }
+
+    /* About us area */
+    .about-area {
+        padding: 80px 0px;
+    }
+    .about-area .about-short {
+        margin-right: 0px;
+    }
+    .about-area .about-short p {
+        font-size: 16px;
+    }
+    .about-area .description {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .about-area .description p {
+        font-size: 12px;
+    }
+
+    /* Features area */
+    .features-area {
+        padding-bottom: 80px;
+    }
+    .features-area .single-feature{
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .features-area .single-feature.pr-70{
+        padding-right: 0;
+    }
+    .features-area .single-feature.pr-35{
+        padding-right: 0;
+    }
+    .features-area .single-feature.pl-35{
+        padding-left: 0;
+    }
+    .features-area .single-feature.pl-70{
+        padding-left: 0;
+    }
+
+    /* Services area */
+    .service-area {
+        padding: 80px 0px;
+    }
+    .service-header{
+        margin-bottom: 30px;
+    }
+    .service-area .owl-dots{
+        display: none;
+    }
+
+    /* Contact area */
+    .contact-area {
+        padding: 100px 0px;
+    }
+    .contact-area .contact-wrap h2 {
+        font-size: 28px;
+    }
+    .contact-area .contact-wrap h4 {
+        font-size: 18px;
+    }
+    .contact-area .contact-wrap .btn-default {
+        font-size: 10px;
+        padding: 10px;
+    }
+    .contact-area .contact-wrap .video-btn a {
+        font-size: 12px;
+    }
+
+    /* Case area */
+    .cases-area {
+        padding: 80px 0px;
+    }
+    .cases-area .case-header p{
+        margin-bottom: 60px;
+    }
+    .cases-area .owl-carousel .owl-nav{
+        top: -45px;
+    }
+    .cases-area .case-wrap .single-case h3{
+        font-size: 18px;
+    }
+
+    /* Testimonial area */
+    .testimonial-area .single-testimonial .test-info{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .testimonial-area .single-testimonial p{
+        padding-top: 75px;
+        font-size: 20px;
+    }
+    .testimonial-area .consultation{
+        margin-top: 30px;
+        padding: 20px;
+    }
+    .testimonial-area .owl-carousel .owl-nav{
+        bottom: 0;
+    }
+    .testimonial-area .consultation .nice-select{
+        font-size: 12px;
+    }
+    .testimonial-area .consultation .btn-default{
+        padding: 15px 20px;
+    }
+
+    /* Brand area */
+    .brand-area {
+        padding-top: 120px;
+        padding-bottom: 80px;
+    }
+
+    /* FAQ area */
+    .faq-area .faq-img img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .faq-area .faq-wrap {
+        padding-top: 70px;
+    }
+    .faq-area .faq-accordion {
+         margin-left: 0;
+    }
+    .faq-area .faq-accordion .btn.btn-link {
+        font-size: 12px;
+        padding: 15px 5px;
+    }
+    .faq-area .faq-accordion .btn.btn-link.collapsed::after {
+        right: 10px;
+    }
+    .faq-area .faq-accordion .btn.btn-link::after {
+        right: 10px;
+    }
+
+    /* Blog area */
+    .blog-area {
+        padding: 80px 0px;
+    }
+    .blog-area .single-blog {
+        padding-left: 0px;
+        margin-bottom: 50px;
+    }
+    .blog-area .blog-description .blog-btn {
+        margin-top: 15px;
+    }
+
+
+    /* Footer area */
+    .footer-area .footer-top {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    .footer-area .footer-wiget{
+        margin-bottom: 80px;
+    }
+    .footer-area .contact-us{
+        margin-top: 80px;
+    }
+    .footer-area .footer-menu ul {
+        text-align: center;
+    }
+    .footer-area .footer-menu ul li {
+        padding-left: 15px;
+    }
+    .footer-area .about-site form {
+        padding: 10px 10px;
+        width: 280px;
+    }
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* Slider area */
+    .slider-area .owl-nav{
+        display: block;
+    }
+    .slider-area .slider-content {
+        padding: 0px 50px;
+    }
+
+    /* Services area */
+    .service-area .owl-dots{
+        display: block;
+    }
+
+    /* Contact area */
+    .contact-area .contact-wrap .btn-default {
+        font-size: 10px;
+        padding: 10px;
+    }
+    .contact-area .contact-wrap .video-btn a {
+        font-size: 14px;
+    } 
+
+    /* Testimonial area */
+    .testimonial-area .consultation .btn-default{
+        padding: 20px 40px;
+    }
+
+    /* FAQ area */
+    .faq-area .faq-accordion .btn.btn-link {
+        font-size: 14px;
+    }
+     
+ 
+}
